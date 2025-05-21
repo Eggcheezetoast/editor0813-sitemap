@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="google-site-verification" content="6TL7zdTgjikCr1qtWCg2mEeSPjPV1eJV0xTF8gpP-qg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>editor0813 블로그</title>
   <style>
     body {
-      font-family: 'Noto Sans KR', sans-serif;
+      font-family: 'Noto Sans KR', sans-serif, sans-serif;
       max-width: 700px;
       margin: 40px auto;
       padding: 0 20px;
@@ -14,27 +15,56 @@
       color: #333;
       background: #fafafa;
     }
+    header {
+      margin-bottom: 40px;
+    }
     h1 {
       color: #2c3e50;
-      border-bottom: 2px solid #3498db;
+      border-bottom: 3px solid #3498db;
       padding-bottom: 10px;
+      margin: 0;
     }
-    p {
-      margin-bottom: 15px;
-    }
-    a {
+    nav a {
+      margin-right: 15px;
       color: #3498db;
       text-decoration: none;
+      font-weight: bold;
     }
-    a:hover {
+    nav a:hover {
       text-decoration: underline;
+    }
+    article {
+      margin-bottom: 40px;
+    }
+    footer {
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+      color: #777;
+      font-size: 0.9em;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <h1>안녕하세요! editor0813 블로그에 오신 것을 환영합니다.</h1>
-  <p>이 사이트는 GitHub Pages를 이용해 운영하는 개인 블로그입니다.</p>
-  <p>여기서는 독서 기록, 시사 이슈, 경제 흐름 등 다양한 주제를 다룹니다.</p>
-  <p>꾸준한 글쓰기를 통해 생각을 정리하고, 방문자와 소통하는 공간으로 만들 생각입니다.</p>
+  <header>
+    <h1>editor0813 블로그</h1>
+    <nav>
+      <a href="#">홈</a>
+      <a href="#">독서 기록</a>
+      <a href="#">시사 이슈</a>
+      <a href="#">경제 흐름</a>
+      <a href="#">소개</a>
+    </nav>
+  </header>
+
+  <article>
+    <h2>환영합니다!</h2>
+    <p>이 사이트는 GitHub Pages를 이용해 운영하는 개인 블로그입니다.</p>
+    <p>독서 기록, 시사 이슈, 경제 흐름 등 다양한 주제를 다루며, 꾸준한 글쓰기를 통해 생각을 정리하고 방문자와 소통하는 공간으로 만들고 있습니다.</p>
+  </article>
+
+  <footer>
+    &copy; 2025 editor0813. All rights reserved.
+  </footer>
 </body>
 </html>
